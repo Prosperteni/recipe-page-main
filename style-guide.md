@@ -9,7 +9,8 @@ The designs were created to the following widths:
 
 > 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
 
-## Colors
+## Colors <!-- - done -->
+
 
 - White: hsl(0, 0%, 100%)
 
@@ -27,14 +28,14 @@ The designs were created to the following widths:
 
 ### Body Copy
 
-- Font size (paragraph): 16px
+Font size (paragraph): 16px <!-- - done -->
 
 ### Fonts
 
-- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif) <!-- - done -->
 - Weights: 400
 
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit) <!-- - done -->
 - Weights: 400, 600, 700
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma. The design file for this challenge also includes a design system and tablet layout to help you build a more accurate solution faster.

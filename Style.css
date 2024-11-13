@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+body {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: hsl(30, 54%, 90%);
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+body .card {
+  margin-top: 80px;
+  margin-bottom: 100px;
+  border-radius: 1.5rem;
+  background-color: hsl(0, 0%, 100%);
+  max-width: 670px;
+  width: 100%;
+  padding: 32px;
+}
+body .card .intro .head_text {
+  font-family: "Young Serif", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  color: black;
+}
+body .card h3 {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: hsl(332, 51%, 32%);
+}
+body .card h1 {
+  font-family: "Young Serif", serif;
+  font-style: normal;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+}
+body .card img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 1rem;
+}
+body .card .Preparation_time {
+  background-color: hsl(30, 54%, 90%);
+  margin-top: 60px;
+  border-radius: 1rem;
+  padding: 10px;
+}
+body .card .Preparation_time .Preparation_time_text {
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+body .card .Preparation_time .Preparation_time_content {
+  padding-left: 5px;
+}
+body .card .Preparation_time .Preparation_time_content li {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+body .card .Preparation_time .Preparation_time_content li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+body .card .Ingredients {
+  padding-left: 5px;
+}
+body .card .Ingredients li {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+body .card .Ingredients li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+body .card .Instructions li {
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+body .card .Instructions li::marker {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}
+body .card .Nutrition .serving {
+  color: hsl(14, 45%, 36%);
+  font-weight: bold;
+}/*# sourceMappingURL=Style.css.map */

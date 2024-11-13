@@ -1,0 +1,123 @@
+$white: hsl(0, 0%, 100%);
+
+$stone-100: hsl(30, 54%, 90%);
+$stone-150: hsl(30, 18%, 87%);
+$stone-600: hsl(30, 10%, 34%);
+$stone-900: hsl(24, 5%, 18%);
+
+$brown-800: hsl(14, 45%, 36%);
+
+$rose-800: hsl(332, 51%, 32%);
+$rose-50: hsl(330, 100%, 98%);
+
+
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+
+body {
+  font-size: 16px;                // The font size for all paragraph type text in the body
+  display: flex;                  // Use flexbox for layout
+  justify-content: center;        // Horizontally center the content
+  align-items: center;            // Vertically center the content   
+  margin: 0;                      // Remove default margin to fill the viewport
+  background-color: $stone-100;   // The Rose color for the background
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+  .card {
+    margin-top: 80px;             // Margin or more space to the top
+    margin-bottom: 100px;         // Margin or more space to the bottom
+    border-radius: 1.5rem;        // The border radius for the card container
+    background-color: $white;     //  The white color for the card container
+    max-width: 670px;             // The Max width for the card container
+    width: 100%;                  // Allow the card to take full width of its container
+    padding: 32px;                // Optional padding for the card content
+
+    .intro{
+      .head_text{
+        font-family: "Young Serif", serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        color: black;
+      }
+    }
+
+    h3 {
+      font-family: "Outfit", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 25px;
+      color: $rose-800;           //Appropriate color specified for h3 texts
+    }
+    
+    h1{
+      font-family: "Young Serif", serif;
+      font-style: normal;
+      font-weight: 400;
+      color: $brown-800;          //Appropriate color specified for h1 texts
+    }
+
+    img {
+      max-width: 100%;            // Ensures the image does not exceed the container's width
+      max-height: 100%;           // Ensures the image does not exceed the container's height
+      object-fit: contain;        // Maintains the aspect ratio of the image
+      border-radius: 1rem;        // The border radius for the image container
+    }
+
+    .Preparation_time{
+      background-color: $stone-100; //  The stone color for the Preparation_time container
+      margin-top: 60px;             // Margin or more space to the top
+      border-radius: 1rem;          // The round radius feel for the Preparation_time container
+      padding: 10px;                // Increasing the  space for the Preparation_time container
+      .Preparation_time_text{
+        padding-left: 20px;         // padding for the Preparation_time_text content
+        margin-bottom: 30px;        // Margin or more space to the bottom
+
+      }
+      .Preparation_time_content{
+        padding-left: 5px;          // Additional spacing between the preparation text and the bullet
+        li {
+          padding-left: 20px;       //Additional spacing between the bullet and text 
+          padding-bottom: 15px;     //Additional spacing at the bottom of listed items
+        }
+        li::marker {                // With the "Marker", you can chane the color of the marker for the list without changing the color of the text
+          color: $brown-800;        // Color for the number/marker
+          font-weight: bold;        // Optional styling for emphasis
+        }
+      }
+    }
+
+    .Ingredients{
+      padding-left: 5px;          // Additional spacing between the ingredients text and the bullet
+      li {
+        padding-left: 20px;       //Additional spacing between the bullet and text 
+        padding-bottom: 20px;     //Additional spacing at the bottom of listed items
+      }
+      li::marker {                // With the "Marker", you can chane the color of the marker for the list without changing the color of the text
+        color: $brown-800;        // Color for the number/marker
+        font-weight: bold;        // Optional styling for emphasis
+      }
+    }
+
+    .Instructions{
+      li{ padding-left: 20px;     //Additional spacing between the bullet and text 
+        padding-bottom: 15px;     //Additional spacing at the bottom of listed items
+      }
+      li::marker {                // With the "Marker", you can chane the color of the marker for the list without changing the color of the text
+        color: $brown-800;        // Color for the number/marker
+        font-weight: bold;        // Optional styling for emphasis
+      }
+    }
+
+    .Nutrition{
+      .serving{   
+        color: $brown-800;      // Specified color for the text in this section
+        font-weight: bold;      // Making the text bold
+      }
+    }
+  }
+}
