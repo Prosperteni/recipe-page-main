@@ -42,13 +42,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 From this project, I learnt how to use SCSS better and I learnt how to use less code. 
 In the course of this project, I learnt how to nest my codes better and how to manipulate containers and the children objects within those containers.
 
-To see how you can add code snippets, see below:
-
-
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-
 ### Continued development
 
 I am very initrigued and intrested in IT, this stage in my life, I am more inclined to robotics and Artificial
