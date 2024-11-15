@@ -50,7 +50,7 @@ Intelligence, In years to come, I hope to improve especially on those two parts 
 ## Author
 
 
-- Website- [PORTFOLIO](https://prospersportfolio.notion.site/Hi-I-m-Prosper-12c4d1e3d627801aaa4bc1e3b61ad74c?pvs=4)
+- Website- [portfolio](https://prospersportfolio.notion.site/Hi-I-m-Prosper-12c4d1e3d627801aaa4bc1e3b61ad74c?pvs=4)
 - Frontend Mentor - [@Prosperteni](https://www.frontendmentor.io/profile/Prosperteni)
 - Instagram - [@teni25_](https://www.instagram.com/teni25_/)
 
