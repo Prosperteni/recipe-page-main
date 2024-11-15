@@ -45,7 +45,7 @@ In the course of this project, I learnt how to nest my codes better and how to m
 ### Continued development
 
 I am very initrigued and intrested in IT, this stage in my life, I am more inclined to robotics and Artificial
-Intelligence, In yesrs to come, I hope to improve especially on those two parts of my skills.
+Intelligence, In years to come, I hope to improve especially on those two parts of my skills.
 
 ## Author
 
